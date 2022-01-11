@@ -1,57 +1,72 @@
 <!DOCTYPE html>
-    <head>
-        <link rel="shortcut icon"href="favicon.png"type="image/x-icon"/>
-
-    <style>
-        body{ display: block;
-            background-color:rgb(250, 244, 233) ;
-            padding: 10px;
-        
-        }
-        h3{color: rgb(73, 160, 156);
-    position: relative;
-    top: 8px;
-}
-hr{position: relative;
-    top: 10px;
-    width: 100%;
-color: rgb(181, 182, 182);
-}
-form{position: relative;
-top: 15px;}
-</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"href="favicon.png"type="image/x-icon"/>
+    <title>Contact</title>
 </head>
-<body>
-    <h3>My Contact Details</h3>
-        
+<body style="background-color:rgb(250, 244, 233);">
+    <section>
+        <h2 style="color:rgb(73, 160, 156);">My Contact Details</h2>   
+    </section>
     <hr>
-    <p><br/><b>Address:</b>&emsp;&emsp;  Sakhipara, Sambalpur, Odisha-768006</p>
-<p><b>Phone no.:</b> &emsp;7923454546</p>
-<p><b>Email Id:</b> &ensp;&emsp;anugya.vssut@gmail.com</p>
-<hr>
-    <h3>Tell me about Yourself <span style="font-size: 20px;">&#128516</span>
-    </h3>
-    <form action="mailto:saninsmlsa19@gmail.com">
-        <label for="name">Your Name:&emsp;&emsp;&emsp;</label>
-        <input type="text"name="name"Id="name">
-        <br/><br/>
-        <label for="address">Your Address:&emsp;&emsp;</label>
-        <input type="text"name="address"Id="address">
-        <br/><br/>
-        <label for="number">Your Phone No.:&emsp;</label>
-        <input type="number"name="number"Id="number">
-        <br/><br/>
-        <label for="dob">Your DOB.:&emsp;&emsp;&emsp;</label>
-        <input type="date"name="dob"Id="dob">
-        <br/><br/>
-        <label for="email">Your Email Id.:&emsp;&ensp;</label>
-        <input type="email"name="email"Id="email">
-        <br/><br/>
-        <label for="message">Your Message:&emsp;&nbsp;&nbsp;&nbsp;</label>
-        <input type="text"name="message"Id="message"style="height:50px">
-   <br/> <br/>
-        <input type="submit">
-        
-    </form>
-    </body>
+    <section>
+        <table cellspacing="20">
+            <tbody>
+<tr>
+    <td><strong>Address:</strong></td>
+    <td>Sakhipara, Sambalpur, Odisha-768006</td>
+</tr>
+<tr>
+    <td><strong>Phone No.:</strong></td>
+    <td>7977234560</td>
+</tr>
+<tr>
+    <td><strong>Email Id:</strong></td>
+    <td>anugya.vssut@gmail.com</td>
+</tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <section>
+        <h2 style="color:rgb(73, 160, 156);">Tell me about Yourself &#128516</h2>
+        <form action="mailto:saninsmlsa19@gmail.com">
+            <table cellspacing="15">
+                <tbody>
+                    <tr>
+                        <td>Your Name:</td>
+                        <td><input type="text"name="name"value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Your Address:</td>
+                        <td><input type="text"name="name"value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Your Phone No.:</td>
+                        <td><input type="number"name="number"value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Your DOB:</td>
+                        <td><input type="date"name="dob"Id="dob"></td>
+                    </tr>
+                    <tr>
+                        <td>Your Email:</td>
+                        <td><input type="email"name="name"value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Your Message:</td>
+                        <td><textarea name="your message" id="" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td> <input type="submit"></td>
+                    </tr>
+                   
+                 </tbody>
+            </table>
+        </form>
+        </section>
+</body>
 </html>
